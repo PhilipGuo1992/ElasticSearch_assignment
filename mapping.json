@@ -1,0 +1,22 @@
+{
+    "mappings": {
+        "bus": {
+            "properties": {
+                "arrival_time": {
+                    "type": "date",
+                    "format": "HH:mm:ss"
+                },
+                "departure_time": {
+                    "type": "date",
+                    "format": "HH:mm:ss"
+                },
+                "name_stop": {
+                        "type": "text"
+                },
+                "route_id": {
+                        "type": "text"
+                }
+                }
+            }
+        }
+}

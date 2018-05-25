@@ -1,0 +1,11 @@
+{
+	"query":{
+		 "bool":{
+			  "filter": {
+					 "match_phrase":{
+						 "name_stop": "akerley Blvd before Windmill Rd"
+					 }
+				}
+		 }
+	}
+}

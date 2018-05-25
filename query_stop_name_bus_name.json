@@ -1,0 +1,12 @@
+{
+    "query": {
+      "bool": {
+        "must": [
+           {"match_phrase": 
+                          {"name_stop": "akerley Blvd before Windmill Rd"}},
+           {"match_phrase": 
+                          {"route_id": "64-121"}}
+        ]
+      }
+   }
+  }

@@ -1,0 +1,17 @@
+{
+    "aggs": {
+      "name_stop": {
+        "terms": {
+          "field": "name_stop", 
+          "order": [
+            {
+              "_count": "asc"
+            }
+          ], 
+          "size": 3
+        }, 
+        "aggs": {}
+      }
+    }, 
+    "size": 0
+  }
