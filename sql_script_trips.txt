@@ -1,0 +1,8 @@
+CREATE TABLE trips(
+   block_id VARCHAR(10) NOT NULL,
+   route_id VARCHAR(10) NOT NULL,
+   trip_headsign VARCHAR(40) NOT NULL,
+   service_id VARCHAR(40) NOT NULL,
+   shape_id VARCHAR(10) NOT NULL,
+   trip_id VARCHAR(40) NOT NULL PRIMARY KEY
+);

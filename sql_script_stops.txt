@@ -1,0 +1,6 @@
+CREATE TABLE stops (
+   stop_id int NOT NULL PRIMARY KEY
+  ,name_stop VARCHAR(200) NOT NULL
+  ,lat    VARCHAR(10) NOT NULL
+  ,log    VARCHAR(10) NOT NULL
+);
